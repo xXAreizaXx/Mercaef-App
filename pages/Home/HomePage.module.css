@@ -1,0 +1,167 @@
+.main {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+  
+.container {
+    background: rgb(34,196,85);
+    background: linear-gradient(133deg, rgba(34,196,85,1) 0%, rgba(86,200,39,1) 50%, rgba(101,217,115,1) 100%);
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    grid-template-rows: 20% 80%;
+    margin: 0;
+    min-height: 100vh; 
+    padding: 0;
+    width: 80%;
+}
+
+.navBar {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px 5px 10px;
+    padding: 10px;
+}
+
+.inputSearch {
+    align-items: center;
+    display: flex;
+    width: 65%;
+}
+
+.inputSearch > input {
+    background-color: #CECECE;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Poppins';
+    padding: 8px;
+    width: 90%;
+}
+
+.inputSearch > .btnSearch {
+    background-color: #000;
+    border-radius: 100%;
+    border: none;
+    color: #FFF;
+    padding: 5px;
+    position: relative;
+    right: 30px;
+}
+
+.btnSearch {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    transition: 1s;
+    width: 36px;
+}
+
+.btnSearch:hover {
+    background-color: tomato;
+    color: #000;
+    opacity: .7;
+    transition: .5s;
+}
+
+.navRight {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 2 / span 2 / 2;
+    margin: 10px 10px 10px 5px;
+    padding: 10px;
+}
+
+.divAvatar {
+    align-items: center;
+    background-image: url('../../public/Fondometal.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 10px 0px;
+}
+
+.divAvatar > h3 {
+    font-size: 15px;
+    width: 60%;
+    word-wrap: break-word;
+   
+}
+
+.cards {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px 5px 10px 10px;
+    padding: 10px;
+}
+
+.btnCollapse {
+    background-color: #FFF;
+    border: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+}
+
+.btnsNavBar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+@media (max-width: 1020px) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, max-content);  
+        width: 90%;      
+    }
+    .navBar {
+        margin: 10px 10px 5px 10px;
+    }
+
+    .navRight {
+        padding: 0;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        grid-area: 2 / 1 / 2 / 1;
+        height: 100%;
+    }
+
+    .divAvatar {
+        margin-top: 10px;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .btnsNavBar {
+        margin: 10px 0px 10px 0px;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .cards {
+        grid-area: 3 / 1 / 3 / 1;
+        margin: 25px 10px 10px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
