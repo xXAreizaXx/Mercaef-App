@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Mercaef | Login</title>
         <meta name="description" content="SuperMarket Shop" />
-        <link rel="icon" href="" />
+        <link rel="icon" href="Logo.png" />
       </Head>
       <div className={Styles.main}>
         <div className={Styles.container}>

@@ -1,0 +1,68 @@
+.navBar {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 5px 5px 10px;
+    padding: 10px;
+}
+
+.inputSearch {
+    align-items: center;
+    display: flex;
+    width: 65%;
+}
+
+.inputSearch > input {
+    background-color: #CECECE;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Poppins';
+    padding: 8px;
+    width: 90%;
+}
+
+.inputSearch > .btnSearch {
+    background-color: #000;
+    border-radius: 100%;
+    border: none;
+    color: #FFF;
+    padding: 5px;
+    position: relative;
+    right: 30px;
+}
+
+.btnSearch {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 36px;
+    overflow: hidden;
+    transition: 1s;
+    width: 36px;
+}
+
+.btnSearch:hover {
+    background-color: tomato;
+    color: #000;
+    opacity: .7;
+    transition: .5s;
+}
+
+.btnCollapse {
+    background-color: #FFF;
+    border: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+}
+
+@media (max-width: 1020px) {
+    .navBar {
+        margin: 10px 10px 5px 10px;
+    }
+}

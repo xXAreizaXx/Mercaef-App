@@ -24,21 +24,23 @@ You will also see any lint errors in the console.
 ![Login](https://user-images.githubusercontent.com/61436653/126052444-3b4651cf-9efb-4b87-90f7-819a243419de.jpg)
 
 ##### _Home_
-![Home](https://user-images.githubusercontent.com/61436653/126052442-a333b769-57bc-40f4-b0f4-fa1a10c820e5.jpg)
+![Home](https://user-images.githubusercontent.com/61436653/126085591-50c2c0de-13f6-4605-b047-8290dcc027cd.jpg)
 
+##### _Lista_
+![Lista](https://user-images.githubusercontent.com/61436653/126085608-6827acec-e87f-4175-8116-717c88a72bf0.jpg)
 
 ## Features 📝
 
 - [x] Login. 
 - [x] Headers.
-- [ ] Create Style Cards.
-- [ ] Create de Api Products.
+- [x] Create de Api Products.
+- [x] Create Style Cards.
+- [x] Minify the app by creating components
 - [ ] Implement Firebase.
 
 ## Learn More about my Api 'Products' 🤔
 
-You can learn more in the web site [Products]().
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/Productos](http://localhost:3000/api/Productos). This endpoint can be edited in `pages/api/Productos.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 

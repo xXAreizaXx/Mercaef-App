@@ -3,6 +3,7 @@ import Home from '../Icons/Home'
 import Lista from '../Icons/Lista'
 import Ruta from '../Icons/Ruta'
 import Configuracion from '../Icons/Configuracion'
+import Link from 'next/link'
 
 export default function BtnNavBar(props) {
 
@@ -15,25 +16,26 @@ export default function BtnNavBar(props) {
 
     function Collapse() {
         if (props.text === "Home") {
-            return <button className={Styles.btn}><Home /></button>
+
+            return <Link href="/Home"><a className={Styles.btn}><Home /></a></Link>
         } else if (props.text === "Lista") {
-            return <button className={Styles.btn}><Lista /></button>
+            return <Link href="/Lista"><a className={Styles.btn}><Lista /></a></Link>
         } else if (props.text === "Ruta") {
-            return <button className={Styles.btn}><Ruta /></button>
+            return <Link href="/Ruta"><a className={Styles.btn}><Ruta /></a></Link>
         } else {
-            return <button className={Styles.btn}><Configuracion /></button>
+            return <Link href="/Config"><a className={Styles.btn}><Configuracion /></a></Link>
         }
     }
 
     function NonCollapse() {
         if (props.text === "Home") {
-            return <button className={Styles.btn}><Home /><h1>{props.text}</h1></button>
+            return <Link href="/Home"><a className={Styles.btn}><Home /><h1>{props.text}</h1></a></Link>
         } else if (props.text === "Lista") {
-            return <button className={Styles.btn}><Lista /><h1>{props.text}</h1></button>
+            return <Link href="/Lista"><a className={Styles.btn}><Lista /><h1>{props.text}</h1></a></Link>
         } else if (props.text === "Ruta") {
-            return <button className={Styles.btn}><Ruta /><h1>{props.text}</h1></button>
+            return <Link href="/Ruta"><a className={Styles.btn}><Ruta /><h1>{props.text}</h1></a></Link>
         } else {
-            return <button className={Styles.btn}><Configuracion /><h1>{props.text}</h1></button>
+            return <Link href="/Config"><a className={Styles.btn}><Configuracion /><h1>{props.text}</h1></a></Link>
         }
     }
 

@@ -1,32 +1,21 @@
-import { useState, useEffect } from 'react'
+import Styles from './Lista.module.css'
+import { useState } from 'react'
 import BtnNavBar from '../../components/Button/BtnNavBar'
-import Card from '../../components/Card/Card'
 import Head from 'next/head'
 import Image from 'next/image'
 import Mercaef from '../../public/Logo.png'
 import NavBar from '../../components/NavBar/NavBar'
-import Styles from './HomePage.module.css'
 
-export default function HomePage() {
+export default function Lista() {
     const [isActive, setIsActive] = useState(true)
-    const [products, setProducts] = useState([])
-
-    useEffect(() => {
-        fetch('http://localhost:3000/api/Productos')
-            .then(res => res.json())
-            .then(data => {
-                setProducts(data.Productos);
-            })
-    }, [])
 
     const handleClick = () => {
         isActive === true ? setIsActive(false) : setIsActive(true)
     }
-
     return (
         <>
             <Head>
-                <title>Mercaef | Home</title>
+                <title>Mercaef | Lista</title>
                 <link rel="icon" href="Logo.png" />
             </Head>
             <div className={Styles.main}>
@@ -59,15 +48,20 @@ export default function HomePage() {
                         }
                     </section>
                     <section className={Styles.cards}>
-                        {
-                            products.map(({ id, Name, Price, img }) =>
-                                <Card key={id} name={Name} price={Price} img={img} />
-                            )
-                        }
-
+                        <div className={Styles.table}>
+                            <div className={Styles.titles}>
+                                <h2>#</h2>
+                                <h2>Imagen</h2>
+                                <h2>Name</h2>
+                                <h2>Price</h2>
+                                <h2>Count</h2>
+                                <h2>Total</h2>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </div>
+
         </>
     )
 }

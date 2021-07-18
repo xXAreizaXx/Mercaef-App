@@ -1,0 +1,77 @@
+{
+    "Productos": [
+        {
+            "id": "1",
+            "Name": "Azucar",
+            "Price": 10000,
+            "img": "https://i.ibb.co/yNG1HSs/Azucar.jpg" 
+        },
+        {
+            "id": "2",
+            "Name": "Carne",
+            "Price": 55000,
+            "img": "https://i.ibb.co/DYP3gmh/Carne.jpg" 
+        },
+        {
+            "id": "3",
+            "Name": "CocaCola",
+            "Price": 3500,
+            "img": "https://i.ibb.co/WVtT3XJ/CocaCola.jpg" 
+        },
+        {
+            "id": "4",
+            "Name": "Donas",
+            "Price": 8000,
+            "img": "https://i.ibb.co/fSfcj3g/Donas.jpg" 
+        },
+        {
+            "id": "5",
+            "Name": "Galletas",
+            "Price": 15000,
+            "img": "https://i.ibb.co/XjJ7qk1/Galletas.jpg" 
+        },
+        {
+            "id": "6",
+            "Name": "Ketchup",
+            "Price": 12000,
+            "img": "https://i.ibb.co/g9NbnHK/Ketchup.jpg" 
+        },
+        {
+            "id": "7",
+            "Name": "Manzana",
+            "Price": 3000,
+            "img": "https://i.ibb.co/N1H0TK3/Manzana.jpg" 
+        },
+        {
+            "id": "8",
+            "Name": "Pan",
+            "Price": 6000,
+            "img": "https://i.ibb.co/N2n2q6m/Pan.jpg" 
+        },
+        {
+            "id": "9",
+            "Name": "Papas",
+            "Price": 34000,
+            "img": "https://i.ibb.co/7yLWzDs/Papas.jpg" 
+        },
+        {
+            "id": "10",
+            "Name": "Pescado",
+            "Price": 24000,
+            "img": "https://i.ibb.co/nQp14RY/Pesacado.jpg"
+        },
+        {
+            "id": "11",
+            "Name": "Tocineta",
+            "Price": 85000,
+            "img": "https://i.ibb.co/nRrCshN/tocineta.jpg" 
+        },
+        {
+            "id": "12",
+            "Name": "Salchicha",
+            "Price": 67000,
+            "img": "https://i.ibb.co/xsJhwsn/salchichas.jpg" 
+        }
+    ]
+   
+}
