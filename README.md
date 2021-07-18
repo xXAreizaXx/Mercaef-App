@@ -21,7 +21,7 @@ You will also see any lint errors in the console.
 ## Preview 📰
 ### **[Commits]**
 ##### _Login_
-![Login](https://user-images.githubusercontent.com/61436653/126052444-3b4651cf-9efb-4b87-90f7-819a243419de.jpg)
+![Login](https://user-images.githubusercontent.com/61436653/126052493-88caddda-9941-41c4-b9cd-8e0742a191ea.jpg)
 
 ##### _Home_
 ![Home](https://user-images.githubusercontent.com/61436653/126085591-50c2c0de-13f6-4605-b047-8290dcc027cd.jpg)
