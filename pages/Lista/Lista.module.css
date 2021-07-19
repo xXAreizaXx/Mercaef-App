@@ -61,15 +61,44 @@
 }
 
 .table {
-    background-color: #CCCCCC;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(13, 75px);
+    grid-gap: 15px;
+    place-content: center;
     border-radius: 10px;
 }
 
 .titles {
+    background-color: #CCCCCC;
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
     align-items: center;
     flex-direction: row;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+.count {
+    font-family: 'Poppins';
+    font-size: 15px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.totalCompra {
 }
 
 @media (max-width: 1020px) {
@@ -99,6 +128,10 @@
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
+    }
+
+    .cards {
+        margin: 20px 10px 10px 10px
     }
 }
 

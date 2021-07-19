@@ -36,6 +36,7 @@ You will also see any lint errors in the console.
 - [x] Create de Api Products.
 - [x] Create Style Cards.
 - [x] Minify the app by creating components
+- [x] Create a List of Products.
 - [ ] Implement Firebase.
 
 ## Learn More about my Api 'Products' 🤔
