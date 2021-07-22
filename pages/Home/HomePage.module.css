@@ -17,7 +17,7 @@
 }
 
 .navRight {
-    background-color: white;
+    background-color: #CECE;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
 }
 
 .cards {
-    background-color: white;
+    background-color: #FFF;
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -17,7 +17,7 @@
 }
 
 .navRight {
-    background-color: white;
+    background-color: #CECE;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
 }
 
 .cards {
-    background-color: white;
+    background-color: #CECE;
     border-radius: 10px;
     margin: 5px 5px 10px 10px;
     padding: 10px;
@@ -70,7 +70,8 @@
 }
 
 .titles {
-    background-color: #cccccc;
+    background-color: rgb(34,196,85);
+    border-radius: 10px;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(6, 1fr);
@@ -109,7 +110,8 @@
 
 
 .totalCompra {
-    background-color: #cccccc;
+    background-color: rgb(34,196,85);
+    border-radius: 10px;
     padding: 10px;
 }
 

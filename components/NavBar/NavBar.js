@@ -7,8 +7,8 @@ export default function NavBar({ handleClick }) {
     return (
         <section className={Styles.navBar}>
             <Logo imgWidth="100" imgHeight="100" />
-            <div className={Styles.inputSearch}>
-                <input type="searh" placeholder="Search..." />
+            <div className={Styles.Search}>
+                <input className={Styles.inputSearch} type="searh" placeholder="Search..." />
                 <button className={Styles.btnSearch}><Search /></button>
                 <button className={Styles.btnCollapse} onClick={handleClick}><Collapse /></button>
             </div>
