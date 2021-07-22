@@ -70,20 +70,18 @@
 }
 
 .titles {
-    background-color: #CCCCCC;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px;
-    align-items: center;
-    flex-direction: row;
+    background-color: #cccccc;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    align-content: center;
 }
 
 .article {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    align-content: center;
 }
 
 .image {
@@ -91,14 +89,28 @@
 }
 
 .count {
-    font-family: 'Poppins';
+    font-family: inherit;
     font-size: 15px;
-    width: 50px;
+    width: 70px;
     padding: 10px;
+    border: 2px solid #cccccc;
     border-radius: 10px;
+    align-self: center;
+    text-align: center;
 }
 
+.count::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+.count:focus {
+    border: none;
+}
+
+
 .totalCompra {
+    background-color: #cccccc;
+    padding: 10px;
 }
 
 @media (max-width: 1020px) {
