@@ -24,10 +24,11 @@ You will also see any lint errors in the console.
 ![Login](https://user-images.githubusercontent.com/61436653/126052493-88caddda-9941-41c4-b9cd-8e0742a191ea.jpg)
 
 ##### _Home_
-![Home](https://user-images.githubusercontent.com/61436653/126085591-50c2c0de-13f6-4605-b047-8290dcc027cd.jpg)
+![Home](https://user-images.githubusercontent.com/61436653/126705594-6a9609e8-501c-4121-8fe5-af750aa89f8e.jpg)
 
 ##### _Lista_
-![Lista](https://user-images.githubusercontent.com/61436653/126242268-aa84bd2f-96f8-4c92-94de-b3931065ce42.jpg)
+![Login](https://user-images.githubusercontent.com/61436653/126705591-a638c7ac-c9a0-4176-8ef6-a597eddedeae.jpg)
+
 ## Features 📝
 
 - [x] Login. 
